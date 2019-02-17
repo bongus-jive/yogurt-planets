@@ -1,0 +1,23 @@
+{
+  "materialId" : 19274,
+  "materialName" : "yogurtblock",
+  "particleColor" : [100, 100, 100, 255],
+  "itemDrop" : "pat_yogurtblock",
+  "description" : "yogur",
+  "shortdescription" : "Yogurt Block",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "falling" : true,
+  "cascading" : true,
+  "health" : 1,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "yogurt.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1800
+  }
+}

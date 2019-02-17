@@ -1,0 +1,11 @@
+{
+  "itemName" : "pat_yogurtblock",
+  "price" : 69420,
+  "category" : "block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "yogurt.png",
+  "description" : "yes",
+  "shortdescription" : "yogur",
+
+  "materialId" : 19274
+}

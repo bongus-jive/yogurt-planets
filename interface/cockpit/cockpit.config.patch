@@ -1,0 +1,17 @@
+[
+  { 
+	"op" : "add", 
+	"path" : "/visitableTypeDescription/yogurtocean", 
+	"value" : [ "OMAN YOGUR" ]
+  },
+  { 
+	"op" : "add", 
+	"path" : "/planetTypeNames/yogurtocean", 
+	"value" : "Yogurt Zone"
+  },
+  { 
+	"op" : "add", 
+	"path" : "/planetTypeColors/yogurtocean", 
+	"value" : [240, 207, 240]	
+  }
+]
