@@ -1,0 +1,111 @@
+{
+  "layers" : [
+    {
+      "kind" : "divider/dirt",
+      "offset" : [0, 300],
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.199
+    },
+    {
+      "kind" : "tile/dirt",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "repeatY" : true,
+      "tileLimitTop" : 225,
+      "parallax" : 1.2
+    },
+
+    {
+      "kind" : "tile/pat_yogurt",
+      "parallax" : 20,
+      "repeatY" : true,
+      "nohueshift" : true
+    },
+
+    {
+      "kind" : "pat_yogurtfloorbelow1",
+      "offset" : [0, 190],
+	  "nohueshift" : true,
+      "parallax" : [1.8, 2.1]
+    },
+    {
+      "kind" : "pat_yogurtfloorbelow2",
+      "offset" : [0, 190],
+	  "nohueshift" : true,
+      "parallax" : [1.8001, 2.1]
+    },
+    {
+      "kind" : "pat_yogurtfloorbelow3",
+      "offset" : [0, 190],
+	  "nohueshift" : true,
+      "parallax" : [1.8002, 2.1]
+    },
+    {
+      "kind" : "pat_yogurtfloorbelow3",
+      "offset" : [0, 330],
+	  "nohueshift" : true,
+      "parallax" : [1.8, 2.1]
+    },
+    {
+      "kind" : "pat_yogurtfloor1",
+      "offset" : [0, 50],
+	  "nohueshift" : true,
+      "parallax" : [1.8, 2.1]
+    },
+    {
+      "kind" : "pat_yogurtfloor1",
+      "offset" : [0, 50],
+	  "nohueshift" : true,
+      "parallax" : [1.8, 2.1]
+    },
+    {
+      "kind" : "pat_yogurtfloor2",
+      "offset" : [0, 50],
+	  "nohueshift" : true,
+      "parallax" : [2, 2.1]
+    },
+    {
+      "kind" : "pat_yogurtfloor3",
+      "offset" : [0, 50],
+	  "nohueshift" : true,
+      "parallax" : [3, 2.15]
+    },
+    {
+      "kind" : "pat_yogurtfloor4",
+      "offset" : [0, 50],
+	  "nohueshift" : true,
+      "parallax" : [4, 2.2]
+    },
+    {
+      "kind" : "pat_yogurtfloor5",
+      "offset" : [0, 50],
+	  "nohueshift" : true,
+      "parallax" : [5, 2.25]
+    },
+    {
+      "kind" : "pat_yogurtfloor6",
+      "offset" : [0, 50],
+	  "nohueshift" : true,
+      "parallax" : [6, 2.3]
+    },
+    {
+      "kind" : "pat_yogurtfloor7",
+      "offset" : [0, 50],
+	  "nohueshift" : true,
+      "parallax" : [7, 2.35]
+    },
+    {
+      "kind" : "pat_yogurtfloor8",
+      "offset" : [0, 50],
+	  "nohueshift" : true,
+      "parallax" : [8, 2.4]
+    },
+    {
+      "kind" : "pat_yogurtfloor9",
+      "offset" : [0, 50],
+	  "nohueshift" : true,
+      "parallax" : [8, 2.4]
+    }
+  ]
+}

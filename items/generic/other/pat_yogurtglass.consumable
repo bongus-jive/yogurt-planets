@@ -1,0 +1,21 @@
+{
+  "itemName" : "pat_yogurtglass",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "drink",
+  "inventoryIcon" : "pat_yogurtglass.png",
+  "description" : "A feast for kings.",
+  "shortdescription" : "Yogurt",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+      "effect" : "bottledwaterheal",
+      "duration" : 20
+    }
+  ] ],
+  "blockingEffects" : [
+    "bottledwaterheal"
+  ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

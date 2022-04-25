@@ -55,7 +55,7 @@
     "path": "/regionTypes/yogurtoceanfloor",
     "value": {
       "oceanLiquid": [
-        "water"
+        "pat_yogurt"
       ],
       "oceanLevelOffset": 1000,
       "blockSelector": [
