@@ -1,24 +1,18 @@
 [
   {
     "op": "add",
+    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "yogurtocean"
+  },
+  {
+    "op": "add",
     "path": "/terrestrialHorizonGraphics/yogurtocean",
     "value": {
       "baseImages": "/celestial/system/terrestrial/horizon/textures/yogurtocean_<selector>.png",
       "maskTextures": "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
-      "maskRange": [
-        1,
-        25
-      ],
-      "maskPerPlanetRange": [
-        1,
-        2
-      ]
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [1, 2]
     }
-  },
-  {
-    "op": "add",
-    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
-    "value": "yogurtocean"
   },
   {
     "op": "add",
@@ -26,10 +20,7 @@
     "value": {
       "baseImages": "/celestial/system/terrestrial/biomes/yogurtocean/maskie<num>.png",
       "dynamicsImages": "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
-      "dynamicsRange": [
-        1,
-        20
-      ]
+      "dynamicsRange": [1, 20]
     }
   }
 ]

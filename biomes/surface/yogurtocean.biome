@@ -63,8 +63,8 @@
 	"mainBlock": "yogurtblock",
 	"subBlocks": ["yogurtblock"],
 	"ores": "none",
-	
-    "parallax" : "/parallax/surface/pat_yogurt.parallax",
+
+	"parallax" : "/parallax/surface/pat_yogurt.parallax",
 
 	"ambientNoises": {
 		"day": {

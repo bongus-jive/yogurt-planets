@@ -4,22 +4,15 @@
     "path": "/planetTypes/yogurtocean",
     "value": {
       "blendSize": 30,
-      "threatRange": [
-        3,
-        3
-      ],
+      "threatRange": [3, 3],
       "layers": {
         "surface": {
-          "primaryRegion": [
-            "yogurtocean"
-          ],
+          "primaryRegion": ["yogurtocean"],
           "baseHeight": 1150,
           "layerLevel": 1050
         },
         "subsurface": {
-          "primaryRegion": [
-            "yogurtoceanfloor"
-          ]
+          "primaryRegion": ["yogurtoceanfloor"]
         }
       }
     }
@@ -28,53 +21,23 @@
     "op": "add",
     "path": "/regionTypes/yogurtocean",
     "value": {
-      "oceanLiquid": [
-        "pat_yogurt"
-      ],
-      "blockSelector": [
-        "remixedIslandsSurface"
-      ],
-      "fgCaveSelector": [
-        "empty"
-      ],
-      "bgCaveSelector": [
-        "empty"
-      ],
-      "biome": [
-        [
-          0,
-          [
-            "yogurtocean"
-          ]
-        ]
-      ]
+      "oceanLiquid": ["pat_yogurt"],
+      "blockSelector": ["remixedIslandsSurface"],
+      "fgCaveSelector": ["empty"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["yogurtocean"]]]
     }
   },
   {
     "op": "add",
     "path": "/regionTypes/yogurtoceanfloor",
     "value": {
-      "oceanLiquid": [
-        "pat_yogurt"
-      ],
       "oceanLevelOffset": 1000,
-      "blockSelector": [
-        "ledgesSurface"
-      ],
-      "fgCaveSelector": [
-        "emptier"
-      ],
-      "bgCaveSelector": [
-        "emptiest"
-      ],
-      "biome": [
-        [
-          0,
-          [
-            "yogurtoceanfloor"
-          ]
-        ]
-      ]
+      "oceanLiquid": ["pat_yogurt"],
+      "blockSelector": ["ledgesSurface"],
+      "fgCaveSelector": ["emptier"],
+      "bgCaveSelector": ["emptiest"],
+      "biome": [[0, ["yogurtoceanfloor"]]]
     }
   }
 ]

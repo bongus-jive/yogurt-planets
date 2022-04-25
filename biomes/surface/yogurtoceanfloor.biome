@@ -3,11 +3,10 @@
   "friendlyName" : "Yogurt Ocean Floor",
 
   "spawnProfile" : {
-    "groups" : [
-    ]
+    "groups" : []
   },
-  
-  "parallax" : "/parallax/surface/pat_yogurtfloor.parallax",
+
+	"parallax" : "/parallax/surface/pat_yogurtfloor.parallax",
 
   "ambientNoises" : {
     "day" : {

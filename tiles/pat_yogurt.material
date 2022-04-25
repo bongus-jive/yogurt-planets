@@ -13,7 +13,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "yogurt.png",
+    "texture" : "pat_yogurt.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,
