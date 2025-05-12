@@ -3,7 +3,7 @@
   "price" : 25,
   "rarity" : "Common",
   "category" : "drink",
-  "inventoryIcon" : "pat_yogurtglass.png",
+  "inventoryIcon" : "yogurtglass.png",
   "description" : "A feast for kings.",
   "shortdescription" : "Yogurt",
   "maxStack" : 1,
