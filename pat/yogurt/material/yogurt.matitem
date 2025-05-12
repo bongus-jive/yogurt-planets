@@ -1,11 +1,11 @@
 {
-  "itemName" : "pat_yogurtblock",
-  "price" : 69420,
-  "category" : "block",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "yogurticon.png",
-  "description" : "yes",
-  "shortdescription" : "yogur",
+  "itemName": "pat_yogurtblock",
+  "price": 0,
+  "category": "block",
+  "rarity": "Common",
+  "inventoryIcon": "yogurticon.png",
+  "description": "yogur",
+  "shortdescription": "Yogurt Chunk",
 
-  "materialId" : 19274
+  "materialId": 19274
 }
