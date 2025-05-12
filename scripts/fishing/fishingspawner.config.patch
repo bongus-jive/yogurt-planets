@@ -1,0 +1,68 @@
+[
+  [
+    { "op": "test", "path": "/pools/yogurtocean", "inverse": true },
+    { "op": "add", "path": "/pools/yogurtocean", "value": { } }
+  ],
+  [
+    { "op": "test", "path": "/pools/yogurtocean/common", "inverse": true },
+    { "op": "add", "path": "/pools/yogurtocean/common", "value": [ ] }
+  ],
+  [
+    { "op": "test", "path": "/pools/yogurtocean/uncommon", "inverse": true },
+    { "op": "add", "path": "/pools/yogurtocean/uncommon", "value": [ ] }
+  ],
+  [
+    { "op": "test", "path": "/pools/yogurtocean/rare", "inverse": true },
+    { "op": "add", "path": "/pools/yogurtocean/rare", "value": [ ] }
+  ],
+  [
+    { "op": "test", "path": "/pools/yogurtocean/legendary", "inverse": true },
+    { "op": "add", "path": "/pools/yogurtocean/legendary", "value": [ ] }
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/pools/yogurtocean/common/-",
+      "value": {
+        "monster": "pat_fishingyogurtbomb",
+        "day": true,
+        "night": true,
+        "shallow": true,
+        "deep": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/pools/yogurtocean/common/-",
+      "value": {
+        "monster": "pat_fishingyogurtglob",
+        "day": true,
+        "night": true,
+        "shallow": true,
+        "deep": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/pools/yogurtocean/uncommon/-",
+      "value": {
+        "monster": "pat_fishingyogurtsac",
+        "day": false,
+        "night": true,
+        "shallow": true,
+        "deep": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/pools/yogurtocean/rare/-",
+      "value": {
+        "monster": "pat_fishingyogurtshark",
+        "day": true,
+        "night": true,
+        "shallow": false,
+        "deep": true
+      }
+    }
+  ]
+]

@@ -1,0 +1,8 @@
+{
+  "name": "pat_fishingyogurtsac",
+  "category": "pat_fishingyogurtsac",
+  "type": "body",
+  "frames": {
+    "body": "fishingyogurtsac.png"
+  }
+}

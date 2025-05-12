@@ -1,0 +1,38 @@
+[
+  {
+    "op": "add",
+    "path": "/collectables/pat_fishingyogurtbomb",
+    "value": {
+      "order": 69,
+      "monsterType": "pat_fishingyogurtbomb",
+      "icon": "/pat/yogurt/monsters/fishing/medium/yogurtbomb/fishingyogurtbomb.png:swim.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/pat_fishingyogurtglob",
+    "value": {
+      "order": 69,
+      "monsterType": "pat_fishingyogurtglob",
+      "icon": "/pat/yogurt/monsters/fishing/medium/yogurtglob/fishingyogurtglob.png:swim.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/pat_fishingyogurtsac",
+    "value": {
+      "order": 69,
+      "monsterType": "pat_fishingyogurtsac",
+      "icon": "/pat/yogurt/monsters/fishing/large/yogurtsac/fishingyogurtsac.png:swim.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/pat_fishingyogurtshark",
+    "value": {
+      "order": 69,
+      "monsterType": "pat_fishingyogurtshark",
+      "icon": "/pat/yogurt/monsters/fishing/large/yogurtshark/fishingyogurtshark.png:swim.1"
+    }
+  }
+]
