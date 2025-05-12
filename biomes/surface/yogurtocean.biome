@@ -3,7 +3,14 @@
 	"friendlyName": "Yogurt Ocean",
 
 	"spawnProfile": {
-		"groups": [ ]
+		"groups": [
+			{
+				"select": 1,
+				"pool": [
+					[ 1, "pat_yogolem" ]
+				]
+			}
+		]
 	},
 
 	"hueShiftOptions": [ -20, -15, 0, 15, 25 ],

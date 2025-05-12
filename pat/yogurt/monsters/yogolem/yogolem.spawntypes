@@ -1,0 +1,18 @@
+[
+  {
+    "name": "pat_yogolem",
+    "spawnParameters": {
+      "area": "surface",
+      "region": "all",
+      "time": "all"
+    },
+    "groupSize": [ 1, 2 ],
+    "spawnChance": 0.2,
+    "monsterType": [
+      [ 1, "pat_yogolem" ]
+    ],
+    "monsterParameters": {
+      "aggressive": true
+    }
+  }
+]
