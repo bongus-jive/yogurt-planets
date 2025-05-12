@@ -1,8 +1,10 @@
-[{
-	"op" : "add",
-	"path" : "/collectables/pat_yogurtglass",
-	"value" : {
-		"order" : 420,
-		"item" : "pat_yogurtglass"
+[
+	{
+		"op": "add",
+		"path": "/collectables/pat_yogurtglass",
+		"value": {
+			"order": 420,
+			"item": "pat_yogurtglass"
+		}
 	}
-}]
+]
