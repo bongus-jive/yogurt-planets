@@ -1,7 +1,7 @@
 {
-  "input" : [
-    { "item" : "pat_yogurt", "count" : 15 }
+  "input": [
+    { "item": "pat_yogurt", "count": 2 }
   ],
-  "output" : { "item" : "pat_yogurtglass", "count" : 1 },
-  "groups" : [ "craftingfood", "drinks" ]
+  "output": { "item": "pat_yogurtglass", "count": 1 },
+  "groups": [ "craftingfood", "drinks" ]
 }

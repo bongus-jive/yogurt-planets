@@ -1,21 +1,25 @@
 {
-  "itemName" : "pat_yogurtglass",
-  "price" : 25,
-  "rarity" : "Common",
-  "category" : "drink",
-  "inventoryIcon" : "yogurtglass.png",
-  "description" : "A feast for kings.",
-  "shortdescription" : "Yogurt",
-  "maxStack" : 1,
-  "effects" : [ [
-    {
-      "effect" : "bottledwaterheal",
-      "duration" : 20
-    }
-  ] ],
-  "blockingEffects" : [
-    "bottledwaterheal"
+  "itemName": "pat_yogurtglass",
+  "price": 25,
+  "rarity": "Common",
+  "category": "drink",
+  "inventoryIcon": "yogurtglass.png",
+  "description": "A feast for kings.",
+  "shortdescription": "Yogurt Cup",
+  "maxStack": 1,
+  "effects": [
+    [
+      {
+        "effect": "maxhealthscalingboostfood",
+        "duration": 90
+      }
+    ]
   ],
-  "emote" : "",
-  "emitters" : [ "drinking" ]
+  "foodValue": 10,
+  "tooltipKind": "food",
+  "builder": "/items/buildscripts/buildfood.lua",
+  "itemAgingScripts": [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier": 1.0,
+  "blockingEffects": [ "wellfed" ],
+  "emitters": [ "drinking" ]
 }
