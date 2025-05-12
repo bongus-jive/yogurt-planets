@@ -1,0 +1,11 @@
+[
+	{
+		"op": "add",
+		"path": "/collectables/pat_blueyogolem",
+		"value": {
+			"order": 69,
+			"monsterType": "pat_blueyogolem",
+			"icon": "/pat/yogurt/monsters/yogolem/body/blueyogolem.png:jump.2?flipx"
+		}
+	}
+]

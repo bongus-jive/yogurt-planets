@@ -1,0 +1,8 @@
+{
+  "name": "body",
+  "category": "pat_blueyogolem",
+  "type": "body",
+  "frames": {
+    "body": "blueyogolem.png"
+  }
+}

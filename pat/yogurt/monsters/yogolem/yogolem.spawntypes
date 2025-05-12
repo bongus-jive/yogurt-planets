@@ -9,7 +9,8 @@
     "groupSize": [ 1, 2 ],
     "spawnChance": 0.2,
     "monsterType": [
-      [ 1, "pat_yogolem" ]
+      [ 0.99, "pat_yogolem" ],
+      [ 0.01, "pat_blueyogolem" ]
     ],
     "monsterParameters": {
       "aggressive": true

@@ -1,9 +1,9 @@
 {
-  "type": "pat_yogolem",
-  "shortdescription": "Yogolem",
+  "type": "pat_blueyogolem",
+  "shortdescription": "Blue Yogolem",
   "description": "Being a Man of Yogurt, it knows how to keep a full tummy without ruining din-din. ^orange;#ManofYogurt^reset;",
 
-  "categories": [ "pat_yogolem" ],
+  "categories": [ "pat_blueyogolem" ],
   "parts": [ "body" ],
 
   "animation": "yogolem.animation",
@@ -32,9 +32,9 @@
       "hostileActions": [
         {
           "name": "action-fire",
-          "cooldown": 0.5,
+          "cooldown": 0.4,
           "parameters": {
-            "maximumRange": 16,
+            "maximumRange": 20,
             "minimumRange": 2,
             "windupState": "",
             "windupTime": 0,
@@ -65,19 +65,19 @@
         },
         {
           "name": "action-fire",
-          "cooldown": 6,
+          "cooldown": 3,
           "parameters": {
             "requireLineOfSight": true,
-            "maximumRange": 8,
+            "maximumRange": 12,
             "minimumRange": 2,
-            "maxYRange": 6,
+            "maxYRange": 8,
             "windupState": "roarwindup",
             "windupTime": 0.2,
 
             "projectileType": "pat_yogurtbomb",
             "fireOffset": [ 1.0, 1.0 ],
-            "projectileCount": 5,
-            "projectileInterval": 0.0375,
+            "projectileCount": 8,
+            "projectileInterval": 0.02,
             "aimAtTarget": false,
             "fireState": "roar",
             "fireDelay": 0.3,
@@ -97,8 +97,8 @@
           "parameters": {
             "canJump": true,
             "maxJumps": 6,
-            "jumpXVelocity": 12,
-            "jumpYVelocity": 30,
+            "jumpXVelocity": 16,
+            "jumpYVelocity": 40,
             "jumpXControlForce": 50,
             "minXRange": 10
           }
@@ -152,8 +152,8 @@
       "collisionPoly": [ [ 0.6875, 1.9375 ], [ 1.1875, 1.4375 ], [ 1.1875, -1.4375 ], [ 0.6875, -1.9375 ], [ -0.6875, -1.9375 ], [ -1.1875, -1.4375 ], [ -1.1875, 1.4375 ], [ -0.6875, 1.9375 ] ],
 
       "mass": 1.6,
-      "walkSpeed": 3,
-      "runSpeed": 6,
+      "walkSpeed": 6,
+      "runSpeed": 9,
       "flySpeed": 15,
       "airForce": 50.0,
 
@@ -193,7 +193,7 @@
           "baseValue": 9
         },
         "maxHealth": {
-          "baseValue": 72
+          "baseValue": 144
         },
         "protection": {
           "baseValue": 0.0
@@ -251,6 +251,6 @@
     "capturable": true,
     "captureHealthFraction": 0.5,
     "nametagColor": [ 64, 200, 255 ],
-    "captureCollectables": { "monsters": "pat_yogolem" }
+    "captureCollectables": { "raremonsters": "pat_blueyogolem" }
   }
 }

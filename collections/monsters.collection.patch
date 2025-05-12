@@ -5,7 +5,7 @@
 		"value": {
 			"order": 69,
 			"monsterType": "pat_yogolem",
-			"icon": "/pat/yogurt/monsters/yogolem/yogolem.png:roar.6?flipx"
+			"icon": "/pat/yogurt/monsters/yogolem/body/yogolem.png:roar.6?flipx"
 		}
 	}
 ]
