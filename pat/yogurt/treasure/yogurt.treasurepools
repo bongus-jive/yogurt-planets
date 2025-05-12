@@ -1,0 +1,17 @@
+{
+  "pat_yogolemTreasure": [
+    [ 1,
+      {
+        "pool": [
+          { "weight": 0.999, "pool": "basicMonsterTreasure" },
+          { "weight": 0.001, "item": "pat_yogolemaf" }
+        ],
+        "poolRounds": [
+          [ 0.20, 0 ],
+          [ 0.80, 1 ]
+        ],
+        "allowDuplication": false
+      }
+    ]
+  ]
+}

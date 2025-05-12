@@ -1,0 +1,30 @@
+{
+  "objectName": "pat_yogolemaf",
+  "colonyTags": [ "pretty" ],
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "collectablesOnPickup": { "actionfigures": "pat_yogolemaf" },
+  "price": 5000,
+  "printable": false,
+  "description": "The label reads, \"^orange;#ManofYogurt^reset;\"",
+  "shortdescription": "Yogolem Figurine",
+
+  "inventoryIcon": "yogolemaf.png",
+  "orientations": [
+    {
+      "image": "yogolemaf.png",
+      "imagePosition": [ -2, 0 ],
+      "direction": "left",
+      "flipImages": true,
+      "spaces": [ [ 0, 0 ], [ 0, 1 ] ],
+      "anchors": [ "bottom" ]
+    },
+    {
+      "image": "yogolemaf.png",
+      "imagePosition": [ -2, 0 ],
+      "direction": "right",
+      "spaces": [ [ 0, 0 ], [ 0, 1 ] ],
+      "anchors": [ "bottom" ]
+    }
+  ]
+}

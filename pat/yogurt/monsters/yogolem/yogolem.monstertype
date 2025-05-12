@@ -9,7 +9,7 @@
   "animation": "yogolem.animation",
   "reversed": true,
 
-  "dropPools": [ "pogolemTreasure" ],
+  "dropPools": [ { "default": "pat_yogolemTreasure" } ],
 
   "baseParameters": {
     "scripts": [ "/monsters/monster.lua" ],
