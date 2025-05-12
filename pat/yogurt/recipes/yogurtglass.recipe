@@ -3,5 +3,6 @@
     { "item": "pat_yogurt", "count": 2 }
   ],
   "output": { "item": "pat_yogurtglass", "count": 1 },
-  "groups": [ "craftingfood", "drinks" ]
+  "groups": [ "craftingfood", "drinks" ],
+  "collectables" : { "cooking" : "pat_yogurtglass" }
 }
