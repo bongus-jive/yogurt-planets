@@ -1,0 +1,27 @@
+{
+  "objectName": "pat_yogurtbug",
+  "colonyTags": [ "nature" ],
+  "rarity": "Common",
+  "price": 50,
+  "printable": false,
+  "description": "These bugs are filled with yogurt and also grenades.",
+  "shortdescription": "Yogurt Bug",
+  "race": "generic",
+  "category": "bug",
+  "collectablesOnPickup": { "bugs": "pat_yogurtbug" },
+
+  "itemTags": [ "bug" ],
+
+  "inventoryIcon": "yogurtbugicon.png",
+  "orientations": [
+    {
+      "dualImage": "yogurtbug.png:<color>.<frame>",
+      "imagePosition": [ -1, 0 ],
+      "frames": 27,
+      "animationCycle": 2.3,
+
+      "spaceScan": 0.1,
+      "anchors": [ "bottom" ]
+    }
+  ]
+}

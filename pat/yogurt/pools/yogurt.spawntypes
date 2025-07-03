@@ -15,5 +15,18 @@
     "monsterParameters": {
       "aggressive": true
     }
+  },
+  {
+    "name": "pat_yogurtbug",
+    "spawnParameters": {
+      "area": "air",
+      "region": "exposed",
+      "time": "all"
+    },
+    "spawnChance": 0.001,
+    "monsterType": "pat_yogurtbug",
+    "monsterParameters": {
+      "aggressive": false
+    }
   }
 ]

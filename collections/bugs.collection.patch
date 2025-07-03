@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/collectables/pat_yogurtbug",
+    "value": {
+      "order": 69,
+      "item": "pat_yogurtbug"
+    }
+  }
+]

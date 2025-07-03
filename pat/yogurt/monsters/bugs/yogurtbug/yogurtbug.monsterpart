@@ -1,0 +1,8 @@
+{
+  "name": "pat_yogurtbug",
+  "category": "pat_yogurtbug",
+  "type": "body",
+  "frames": {
+    "body": "yogurtbug.png"
+  }
+}

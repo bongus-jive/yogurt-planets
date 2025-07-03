@@ -13,5 +13,15 @@
         "allowDuplication": false
       }
     ]
+  ],
+
+  "pat_yogurtbug": [
+    [ 0,
+      {
+        "fill": [
+          { "item": "pat_yogurtbug" }
+        ]
+      }
+    ]
   ]
 }
