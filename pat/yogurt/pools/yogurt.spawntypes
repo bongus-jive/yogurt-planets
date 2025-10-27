@@ -23,7 +23,8 @@
       "region": "exposed",
       "time": "all"
     },
-    "spawnChance": 0.001,
+    "groupSize": [ 1, 2 ],
+    "spawnChance": 0.02,
     "monsterType": "pat_yogurtbug",
     "monsterParameters": {
       "aggressive": false
