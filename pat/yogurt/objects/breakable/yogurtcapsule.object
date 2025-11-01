@@ -1,0 +1,56 @@
+{
+  "objectName": "pat_yogurtcapsule",
+  "colonyTags": [ "misc" ],
+  "rarity": "Common",
+  "category": "breakable",
+  "price": 40,
+
+  "description": "An old yogurt bottle.",
+  "shortdescription": "Unexploded Yogurt",
+  "race": "generic",
+
+  "apexDescription": "A yogurt bottle. These often contain yogurt.",
+  "avianDescription": "A yogurt bottle. Yogurt is inside, I don't wonder what it is...",
+  "floranDescription": "Sssmash it open! Get the yogurt insside!",
+  "glitchDescription": "Destructive. It is difficult to resist the urge to break this yogurt bottle.",
+  "humanDescription": "I think there's yogurt in there. I can probably break it open.",
+  "hylotlDescription": "Sometimes force can yield yogurt.",
+  "novakidDescription": "This yogurt'd be perfect for target practice.",
+
+  "inventoryIcon": "yogurtcapsule.png",
+  "orientations": [
+    {
+      "image": "yogurtcapsule.png",
+      "imagePosition": [ 0, -8 ],
+      "spaces": [ [ 0, 0 ] ],
+      "anchors": [ "bottom" ]
+    }
+  ],
+
+  "smashable": true,
+  "smashOnBreak": false,
+  "breakDropOptions": [ ],
+
+  "scripts": [ "yogurtcapsule.lua" ],
+  "scriptDelta": 0,
+
+  "breakProjectile": {
+    "type": "pat_yogurtbomb",
+    "parameters": {
+      "timeToLive": 1,
+      "bounces": -1,
+      "power": 50,
+      "damageTeam": { "type": "indiscriminate" }
+    },
+    "offset": [ 0.5, 0.5 ]
+  },
+  "smashProjectile": {
+    "type": "pat_yogurtbomb",
+    "parameters": {
+      "timeToLive": 0,
+      "power": 55,
+      "damageTeam": { "type": "indiscriminate" }
+    },
+    "offset": [ 0.5, 0.5 ]
+  }
+}

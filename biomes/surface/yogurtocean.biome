@@ -101,7 +101,21 @@
     "grassMod": [ "grass" ],
     "grassModDensity": 0,
 
-    "items": [ ]
+    "items": [
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseLarge",
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [ [ 1, "pat_yogurtcapsule" ] ],
+            "parameters": { }
+          }
+        ]
+      }
+    ]
   },
 
   "undergroundPlaceables": {
