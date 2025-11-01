@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/pat_yogurtocean",
+    "value": [
+      [ 0.7, "clear" ],
+      [ 0.15, "pat_yogurtrain" ],
+      [ 0.15, "pat_yogurtstorm" ]
+    ]
+  }
+]

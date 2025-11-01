@@ -21,6 +21,10 @@
 
   "hueShiftOptions": [ -20, -15, 0, 15, 25 ],
 
+  "weather": [
+    [ 0, [ "/weather.config:pat_yogurtocean" ] ]
+  ],
+
   "skyOptions": [ {
       "mainColor": [ 255, 255, 255 ],
 
