@@ -1,0 +1,34 @@
+{
+  "projectileName": "pat_yogurtshockwave",
+  "image": "yogurtshockwave.png",
+  "timeToLive": 0.2,
+  "animationCycle": 0.2,
+  "animationLoops": false,
+  "frameNumber": 5,
+  "orientationLocked": true,
+  "flippable": true,
+  "piercing": true,
+  "speed": 0,
+  "knockback": 40,
+  "knockbackDirectional": true,
+  "damagePoly": [ [ -4, 11 ], [ 4, 11 ], [ 4, -11 ], [ -4, -11 ] ],
+  "damageType": "Knockback",
+  "statusEffects": [ "pat_yogurtslow" ],
+  "periodicActions": [
+    {
+      "time": 0.03,
+      "repeat": false,
+      "action": "projectile",
+      "type": "pat_yogurtbomb",
+      "inheritDamageFactor": 1,
+      "offsetRange": [ -0.1, 0, 0.1, 0.25 ],
+      "fuzzAngle": 15,
+      "angleAdjust": 45,
+      "autoFlipAdjust": true,
+      "config": {
+        "speed": 28,
+        "liquidOnDestroy": { "name": "pat_yogurt", "quantity": 2 }
+      }
+    }
+  ]
+}

@@ -60,8 +60,8 @@
   "altAbilityType": "greatwave",
   "altAbility": {
     "name": "Gurt Wave",
-    "projectileType": "pat_yogurtbomb",
-    "maxDistance": 5
+    "projectileType": "pat_yogurtshockwave",
+    "maxDistance": 6
   },
 
   "builder": "/items/buildscripts/buildunrandweapon.lua"
