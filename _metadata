@@ -1,11 +1,12 @@
 {
-  "version" : "1.1.1",
   "author" : "pat",
-  "tags" : "Miscellaneous|Planets and Environments",
-  "description" : "adds yogurt planets\nplanets made of yogurt\n\n[strike]you'll have to ignore the bugs because im not going to fix them[/strike]\nzacrabo fixed them\n\ngive me money\nhttps://www.patreon.com/pathiccstar\n\njoin discord\nhttps://discord.gg/GdsQSgV",
+  "description" : "adds yogurt planets",
+  "friendlyName" : "Yogurt Planets",
+  "includes" : ["pat_yogurtbomb"],
+  "link" : "steam://url/CommunityFilePage/1658085077",
   "name" : "pat_yogurtplanets",
   "steamContentId" : "1658085077",
-  "friendlyName" : "Yogurt Planets",
-  "link" : "steam://url/CommunityFilePage/1658085077",
-  "includes" : ["pat_yogurtbomb"]
+  "steamDescription" : "Adds yogurt planets\n\ntheyre made of yogurt and also bombs\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV\n[img]https://i.imgur.com/uyG8oTa.gif[/img]https://www.patreon.com/pathiccstar\n[img]https://i.imgur.com/xVfcRRH.gif[/img]https://ko-fi.com/patmanf\n[img]https://i.imgur.com/jJAj6jF.gif[/img]https://github.com/bongus-jive/yogurt-planets",
+  "tags" : "Miscellaneous|Planets and Environments",
+  "version" : "1.2"
 }
