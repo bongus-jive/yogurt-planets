@@ -1,0 +1,68 @@
+{
+  "itemName": "pat_yogurtcide",
+  "price": 1500,
+  "level": 6,
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "description": "gurt",
+  "shortdescription": "Yogurtcide",
+  "tooltipKind": "sword",
+  "category": "broadsword",
+  "twoHanded": true,
+  "itemTags": [ "weapon", "melee", "broadsword" ],
+
+  "inventoryIcon": "yogurtcide.png",
+
+  "animation": "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts": {
+    "handle": "",
+    "blade": "yogurtcide.png"
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": { "properties": { "image": "swoosh.png:1.<frame>" } },
+              "fire2": { "properties": { "image": "swoosh.png:2.<frame>" } },
+              "fire3": { "properties": { "image": "swoosh.png:3.<frame>" } }
+            }
+          }
+        }
+      }
+    },
+    "particleEmitters": {
+      "physicalswoosh": {
+        "active": false,
+        "transformationGroups": [ "swoosh" ],
+        "burstCount": 12,
+        "particles": [ { "particle": "pat_yogurtbomb_drip" } ]
+      }
+    },
+    "sounds": {
+      "fire": [ "/sfx/melee/swing_broadsword_water1.ogg", "/sfx/melee/swing_broadsword_water2.ogg", "/sfx/melee/swing_broadsword_water3.ogg" ],
+      "fire2": [ "/sfx/melee/swing_broadsword_water1.ogg", "/sfx/melee/swing_broadsword_water2.ogg", "/sfx/melee/swing_broadsword_water3.ogg" ],
+      "fire3": [ "/sfx/melee/swing_broadsword_water1.ogg", "/sfx/melee/swing_broadsword_water2.ogg", "/sfx/melee/swing_broadsword_water3.ogg" ]
+    }
+  },
+
+  "scripts": [ "/items/active/weapons/melee/meleeweapon.lua" ],
+
+  "elementalType": "physical",
+
+  "primaryAbilityType": "broadswordcombo",
+  "primaryAbility": {
+    "fireTime": 0.6,
+    "baseDps": 11
+  },
+
+  "altAbilityType": "greatwave",
+  "altAbility": {
+    "name": "Gurt Wave",
+    "projectileType": "pat_yogurtbomb",
+    "maxDistance": 5
+  },
+
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+}
