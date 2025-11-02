@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "hokucide" },
+    { "item": "pat_yogurtbomb", "count": 100 },
+    { "item": "pat_yogurtbug", "count": 10 },
+    { "item": "pat_yogolemaf", "count": 1 }
+  ],
+  "output": { "item": "pat_yogurtcide", "count": 1 },
+  "groups": [ "treasuredtrophies" ]
+}
